@@ -40,10 +40,9 @@
             android:layout_above="@+id/nama_makanan"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="13dp"
             android:text="Menu"
             android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="14sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="102dp"/>
 
@@ -54,7 +53,7 @@
             android:layout_above="@+id/textView5"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="34dp"
+            android:layout_marginBottom="59dp"
             android:textAlignment="center"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="0dp"
@@ -69,7 +68,7 @@
             android:layout_alignParentStart="true"
             android:text="Porsi"
             android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="14sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="177dp"/>
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudyCase</string>
+    <string name="toast_message">Jangan Disini Makan Malamnya, Uang Kamu Tidak Cukup</string>
+    <string name="toast_message2">Disini Aja Makan Malamnya</string>
 </resources>

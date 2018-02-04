@@ -1,11 +1,13 @@
 package com.example.gusti_r7i22ff.gustianandarespati_1202140033_modul1;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText edText1, edText2;
@@ -35,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("PORSI", porsi);
                 intent.putExtra("TOTAL_HARGA", jumlah_integer*50000);
                 startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.toast_message), Toast.LENGTH_LONG);
+                toast.show();
             }
         });
 
@@ -50,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
                 c.putExtra("PORSI", porsi);
                 c.putExtra("TOTAL_HARGA", jumlah_integer*30000);
                 startActivity(c);
+                Toast toast = Toast.makeText(getApplicationContext(), R.string.toast_message2, Toast.LENGTH_LONG);
+                toast.show();
             }
         });
 
